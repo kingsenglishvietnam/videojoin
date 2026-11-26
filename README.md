@@ -14,10 +14,10 @@ upload (YouTube accepts it directly).
 ## Usage
 
 ```powershell
-.\videojoin1.ps1                      # every clip in the current folder, in natural name order
-.\videojoin1.ps1 1* 2*                # these clips, in this order
-.\videojoin1.ps1 intro.mp4 main.mp4 -Crossfade 1
-.\videojoin1.ps1 -Crossfade 0 -Output final.mov    # hard cuts
+.\videojoin2.ps1                      # every clip in the current folder, in natural name order
+.\videojoin2.ps1 1* 2*                # these clips, in this order
+.\videojoin2.ps1 intro.mp4 main.mp4 -Crossfade 1
+.\videojoin2.ps1 -Crossfade 0 -Output final.mov    # hard cuts
 ```
 
 | Parameter | Default | Meaning |
